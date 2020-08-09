@@ -22,7 +22,7 @@ class CovidAPI(object):
         return data_dict
 
     def get_dc_data(self):
-        data_dict = self._get_data(URL_USA)
+        data_dict = self._get_data(URL_DC)
         data_dict.update(region='Washington, DC')
         return data_dict
 
